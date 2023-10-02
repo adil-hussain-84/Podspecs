@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.author = 'Masabi Ltd'
   s.platform = :ios, '12.0'
   s.vendored_frameworks = 'JRE_Core_Dynamic.framework'
+  s.dependency 'JRE_Core'
 end
